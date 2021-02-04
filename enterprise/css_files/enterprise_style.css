@@ -239,3 +239,38 @@ align-items: center;
     width: 100%;
     margin-right: 5%;
 }
+
+
+/* enterprise-security-slide */
+
+
+.enterprise-security{
+    display: grid;
+    grid-template-columns: 35% 50%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5%;
+}
+.enterprise-security-left>h1{
+    color: #242424e0;
+    font-weight: 500;
+    font-size: 37px;
+}
+.enterprise-security-left>p{
+    color: #2c2c2cce;
+    font-size: 18.5px;
+    font-weight: 400;
+    line-height: 33px;
+    margin-top: 12px;
+    margin-bottom: 30px;
+}
+.enterprise-security-left>a{
+    color: #008bc7;
+    font-size: 15px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.enterprise-security-right>img{
+    width: 100%;
+}
