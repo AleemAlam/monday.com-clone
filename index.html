@@ -2,11 +2,11 @@
 <html lang="en">
   <head>
     <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="all.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>monday.com:Work the way that</title>
@@ -14,22 +14,30 @@
   </head>
   <body>
     <nav>
-      <div class="left">
-        <img src="images/logo_monday.png" alt="monday.com" />
-        <ul>
-          <li><a href="product.html">Product</a></li>
-          <li><a href="product.html">It-Solutions</a></li>
-          <li><a href="product.html">Enterprise</a></li>
-          <li><a href="product.html">Price</a></li>
-        </ul>
-      </div>
-      <div class="right">
-        <ul>
-          <li><a href="product.html">Contact Sales</a></li>
-          <li><a href="product.html">Login</a></li>
-          <li><button>Get Started ></button></li>
-        </ul>
-      </div>
+      <img src="images/logo_monday.png" alt="monday.com" />
+      <ul>
+        <li><a href="product.html">Product</a></li>
+        <li><a href="product.html">Solutions</a></li>
+        <li><a href="product.html">Enterprise</a></li>
+        <li><a href="product.html">Price</a></li>
+        <div class="space"></div>
+        <li><a href="product.html">Contact</a></li>
+        <li><a href="product.html">Login</a></li>
+        <li><button>Get Started ></button></li>
+        <div id="burgerbtn" class="burger">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
+      </ul>
+      <ul id="small-menu" class="burger-menu">
+        <li><a href="product.html">Product</a></li>
+        <li><a href="product.html">Solutions</a></li>
+        <li><a href="product.html">Enterprise</a></li>
+        <li><a href="product.html">Price</a></li>
+        <li><a href="product.html">Contact</a></li>
+        <li><a href="product.html">Login</a></li>
+      </ul>
     </nav>
     <div class="get-started">
       <h1>Work the way that works for you</h1>
@@ -78,6 +86,7 @@
       </div>
       <div><button>Get Started ></button></div>
     </div>
+    <br /><br />
     <img
       id="team-planning-img"
       class="top-margin"
@@ -269,5 +278,29 @@
         /></a>
       </div>
     </div>
+    <script>
+      var showMenu = true;
+      var getStarted = document.querySelector(".get-started");
+      getStarted.style.marginTop = "120px";
+      function toggleMenu() {
+        var menu = document.getElementById("small-menu");
+        if (showMenu) {
+          menu.style.display = "block";
+          showMenu = false;
+        } else {
+          menu.style.display = "none";
+          showMenu = true;
+        }
+      }
+      function hideMenu() {
+        var menu = document.getElementById("small-menu");
+        menu.style.display = "none";
+        console.log(menu.style.display);
+        console.log(window.innerWidth);
+      }
+      var btn = document.getElementById("burgerbtn");
+      btn.addEventListener("click", toggleMenu);
+      window.onresize = hideMenu;
+    </script>
   </body>
 </html>
