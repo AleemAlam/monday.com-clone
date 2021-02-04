@@ -15,6 +15,9 @@ body {
 #check {
   display: none;
 }
+nav > a {
+  display: inline;
+}
 nav {
   background-color: white;
   height: 80px;
@@ -356,9 +359,9 @@ h2 + p {
 .contact {
   margin: 0px;
   margin-top: 80px;
-  padding: 40px;
+  padding: 60px;
+
   background-color: rgb(244, 244, 247);
-  background-size: cover;
 }
 .contact > h1 {
   font-weight: 400;
@@ -375,9 +378,10 @@ h2 + p {
 .contact-form {
   display: flex;
   margin: auto;
-  margin-top: 100px;
   justify-content: space-evenly;
-  margin-bottom: 50px;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  background-color: rgb(252, 252, 255);
 }
 .form {
   flex-basis: 40%;
@@ -459,4 +463,46 @@ h2 + p {
 }
 #subBtn {
   grid-area: btn;
+}
+.connect-cards {
+  display: grid;
+  width: 90%;
+  margin: auto;
+  grid-template: "a b c d";
+  gap: 10px;
+  background-color: rgb(252, 252, 255);
+}
+.card {
+  text-align: center;
+  margin-top: 50px;
+  padding-bottom: 80px;
+}
+.card > img {
+  width: 100%;
+  max-width: 300px;
+}
+.card > p {
+  text-align: center;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: 1px;
+  margin-top: 50px;
+}
+.card > a {
+  margin-top: 10px;
+  color: rgb(0, 153, 255);
+  text-decoration: none;
+  font-size: 18px;
+}
+#connect_1 {
+  grid-area: a;
+}
+#connect_2 {
+  grid-area: b;
+}
+#connect_3 {
+  grid-area: c;
+}
+#connect_4 {
+  grid-area: d;
 }

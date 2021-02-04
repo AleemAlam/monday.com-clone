@@ -11,19 +11,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>monday.com:Work the way that</title>
     <link rel="stylesheet" href="style.css" />
+    <style>
+      body {
+        background-color: rgb(252, 252, 255);
+      }
+    </style>
   </head>
   <body>
     <nav>
-      <img src="images/logo_monday.png" alt="monday.com" />
+      <a href="index.html"
+        ><img src="images/logo_monday.png" alt="monday.com"
+      /></a>
       <ul>
         <li><a href="product.html">Product</a></li>
         <li><a href="product.html">Solutions</a></li>
         <li><a href="product.html">Enterprise</a></li>
         <li><a href="product.html">Price</a></li>
         <div class="space"></div>
-        <li><a href="product.html">Contact</a></li>
-        <li><a href="product.html">Login</a></li>
-        <li><button>Get Started ></button></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="Project_masai/project/login_monday.html">Login</a></li>
+        <li>
+          <button href="Project_masai/project/signup_monday.html">
+            Get Started >
+          </button>
+        </li>
         <div id="burgerbtn" class="burger">
           <div class="line"></div>
           <div class="line"></div>
@@ -35,7 +46,7 @@
         <li><a href="product.html">Solutions</a></li>
         <li><a href="product.html">Enterprise</a></li>
         <li><a href="product.html">Price</a></li>
-        <li><a href="product.html">Contact</a></li>
+        <li><a href="contact.html">Contact</a></li>
         <li><a href="product.html">Login</a></li>
       </ul>
     </nav>
@@ -101,18 +112,18 @@
       </div>
       <div id="connect_2" class="card">
         <img src="images/card_2.png" alt="card" />
-        <p>Everything you can do with monday.com</p>
-        <a href="">Watch now ></a>
+        <p>Join any of our daily webinars</p>
+        <a href="">Learm more ></a>
       </div>
       <div id="connect_3" class="card">
         <img src="images/card_3.png" alt="card" />
-        <p>Everything you can do with monday.com</p>
-        <a href="">Watch now ></a>
+        <p>How real teams use monday.com</p>
+        <a href="">Read more ></a>
       </div>
       <div id="connect_4" class="card">
         <img src="images/card_4.png" alt="card" />
-        <p>Everything you can do with monday.com</p>
-        <a href="">Watch now ></a>
+        <p>Get quick answers to your questions</p>
+        <a href="">Explore more ></a>
       </div>
     </div>
     <div id="footer" class="left-text-align">
@@ -213,8 +224,6 @@
     </div>
     <script>
       var showMenu = true;
-      var getStarted = document.querySelector(".get-started");
-      getStarted.style.marginTop = "120px";
       function toggleMenu() {
         var menu = document.getElementById("small-menu");
         if (showMenu) {
