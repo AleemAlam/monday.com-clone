@@ -55,7 +55,8 @@ li > a:hover {
 nav li:nth-child(8) {
   margin-top: 20px;
 }
-button {
+button,
+input[type="submit"] {
   width: 130px;
   height: 40px;
   font-size: 15px;
@@ -353,9 +354,11 @@ h2 + p {
   margin-top: 0px;
 }
 .contact {
+  margin: 0px;
   margin-top: 80px;
   padding: 40px;
   background-color: rgb(244, 244, 247);
+  background-size: cover;
 }
 .contact > h1 {
   font-weight: 400;
@@ -368,4 +371,92 @@ h2 + p {
   font-size: 18px;
   line-height: 30px;
   word-spacing: 5px;
+}
+.contact-form {
+  display: flex;
+  margin: auto;
+  margin-top: 100px;
+  justify-content: space-evenly;
+  margin-bottom: 50px;
+}
+.form {
+  flex-basis: 40%;
+}
+.contact-img {
+  flex-basis: 50%;
+}
+.contact-img > img {
+  width: 90%;
+  margin: auto;
+  margin-top: 80px;
+}
+.form > form {
+  display: grid;
+  grid-template:
+    "fname fname lname lname"
+    "email email jtitle jtitle"
+    "phn phn phn phn"
+    "cn cn cn cs"
+    "tx tx tx tx"
+    "btn btn btn btn";
+  gap: 20px;
+  box-shadow: 0px 0px 10px 10px rgb(245, 245, 245);
+  border-radius: 10px;
+  padding: 50px;
+  margin: 0 0 0 80px;
+}
+.form-element > label {
+  display: block;
+  text-align: left;
+  margin-bottom: 8px;
+  color: black;
+  opacity: 0.8;
+}
+.form-element > input {
+  width: 100%;
+  height: 35px;
+  border: 0.5px solid lightgray;
+  border-radius: 3px;
+  margin-top: 5px;
+}
+#txtF {
+  height: 70px;
+}
+#subBtn {
+  width: 100%;
+  text-align: center;
+}
+#subBtn > input {
+  width: 120px;
+  height: 40px;
+  color: white;
+  border-radius: 40px;
+}
+
+#firstName {
+  grid-area: fname;
+}
+#lastName {
+  grid-area: lname;
+}
+#workEmail {
+  grid-area: email;
+}
+#jobTitle {
+  grid-area: jtitle;
+}
+#phnNum {
+  grid-area: phn;
+}
+#comName {
+  grid-area: cn;
+}
+#cSize {
+  grid-area: cs;
+}
+#textFeild {
+  grid-area: tx;
+}
+#subBtn {
+  grid-area: btn;
 }
