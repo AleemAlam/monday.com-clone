@@ -5,6 +5,9 @@
 }
 
 
+/* //// enterprise-header-starting-page \\\\ */
+
+
 .enterprise-header-page{
     background-image: url("https://dapulse-res.cloudinary.com/image/upload/f_auto,q_auto/remote_mondaycom_static/uploads/MayKishon/f5d106da-1e24-4433-873b-ae8406a889c0_enterprisecover3.png");
     background-position: center;
@@ -45,6 +48,10 @@
     background-color: rgb(217, 214, 231);
 }
 
+
+/* //// just-below-enterprise-header-(brands Name and logo eg: Uber,Adobe) \\\\ */
+
+
 .just-below-enterprise-header{
     display: grid;
     gap: 1%;
@@ -58,6 +65,10 @@
 .just-below-enterprise-header>img{
     margin: auto;
 }
+
+
+/* //// enterprise-video-part(only video in this page)  \\\\*/
+
 
 .enterprise-video1-cont{
     display: flex;
@@ -95,6 +106,8 @@ align-items: center;
     outline: thin;
 }
 
+
+/* //// enterprise-data-advanced-exclusive (three columns with some text) \\\\ */
 
 
 .enterprise-data-adv-excl-column{
@@ -143,7 +156,11 @@ align-items: center;
     margin-bottom: 16px;
 }
 
-/* request-demo-form-page */
+
+
+/* //// request-demo-form(to fill request a demo form) \\\\ */
+
+
 
 .request-demo-form-page{
     /* border: 1px solid red; */
@@ -241,7 +258,7 @@ align-items: center;
 }
 
 
-/* enterprise-security-slide */
+/* //// enterprise-security-part(some text with ,one image on the left side) \\\\*/
 
 
 .enterprise-security{
@@ -276,7 +293,8 @@ align-items: center;
 }
 
 
-/* enterprise-spftware-AG */
+/* //// enterprise-spftware-AG(Some quoted large size text) \\\\ */
+
 
 .enterprise-spftware-AG{
     /* border: 1px solid red; */
@@ -330,7 +348,7 @@ align-items: center;
 }
 
 
-/* enterprise-tools-option-page */
+/* //// enterprise-tools-option-page \\\\ */
 
 
 .enterprise-tools-option-page{
@@ -362,7 +380,7 @@ align-items: center;
 }
 
 
-/* Tailored onboarding. Fast adoption. */
+/* //// Tailored onboarding. Fast adoption. \\\\*/
 
 
 .enterprise-tailored-onboarding{
@@ -394,7 +412,7 @@ align-items: center;
 }
 
 
-/* The economic impact of monday.com */
+/* //// The economic impact of monday.com \\\\ */
 
 
 .enterprise-economic-impact{
@@ -414,7 +432,7 @@ align-items: center;
 }
 
 
-/* Versatile building blocks page*/
+/* //// Versatile building blocks page \\\\ */
 
 #versatile-building-block-cont{
     margin-bottom: 100px;
@@ -450,7 +468,7 @@ width: 100%;
 }
 
 
-/* enterprise bottom part (telefonica) */
+/* //// enterprise bottom part (telefonica) \\\\ */
 
 .enterprise-bottom-slide{
     width: 70%;
@@ -501,7 +519,7 @@ width: 100%;
 
 
 
-/* enterprise bottom part button */
+/* //// enterprise bottom part button \\\\ */
 
 .enterprise-bottom-btn-cont{
     text-align: center;
