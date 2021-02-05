@@ -458,7 +458,7 @@ width: 100%;
     grid-template-columns: 70% 30%;
     /* border: 1px solid red; */
     background-color: rgba(212, 212, 212, 0.281);
-    margin-bottom: 125px;
+    margin-bottom: 95px;
 }
 .enterprise-bottom-slide>img{
     width: 200%;
@@ -498,3 +498,36 @@ width: 100%;
     font-size: 30px;
     margin-bottom: 35px;
 }
+
+
+
+/* enterprise bottom part button */
+
+.enterprise-bottom-btn-cont{
+    text-align: center;
+}
+.enterprise-bottom-btn-cont>p{
+    text-align: center;
+    color: #000000d8;
+    font-weight: 500;
+    font-size: 35px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+#enterprise-bottom-btn{
+    font-size: 14px;
+    padding: 8px 20px;
+    color: white;
+    background-color: #4353ff;
+    cursor: pointer;
+    border: none;
+    border-radius: 50px;
+    margin-top: 15px;
+    margin-bottom: 85px;
+    outline: none;
+    
+}
+#enterprise-bottom-btn:hover{
+    background-color: #3040f0;
+}
+
