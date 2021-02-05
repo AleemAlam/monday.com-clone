@@ -274,3 +274,27 @@ align-items: center;
 .enterprise-security-right>img{
     width: 100%;
 }
+
+
+/* enterprise-spftware-AG */
+
+.enterprise-spftware-AG{
+    border: 1px solid red;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 65%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.enterprise-spftware-AG-para>h2{
+    color: #242424;
+    font-weight: 500;
+    font-size: 34px;
+    border: 1px solid green;
+    
+}
+.enterprise-spftware-AG-para{
+    padding: 5%;
+}
