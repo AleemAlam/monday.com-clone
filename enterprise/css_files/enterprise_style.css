@@ -450,3 +450,51 @@ width: 100%;
 }
 
 
+/* enterprise bottom part (telefonica) */
+
+.enterprise-bottom-slide{
+    width: 70%;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    /* border: 1px solid red; */
+    background-color: rgba(212, 212, 212, 0.281);
+    margin-bottom: 125px;
+}
+.enterprise-bottom-slide>img{
+    width: 200%;
+    padding-top: 38%;
+    padding-bottom: 40%;
+}
+.enterprise-bottom-slide-head-para{
+    color: #111111d8;
+    font-weight: 400;
+    font-size: 36px;
+    padding-left: 12%;
+    padding-top: 21%;
+    line-height: 50px;
+}
+.enterprise-bottom-slide-light-para{
+    color: #111111d8;
+    font-size: 18.5px;
+    font-weight: 300;
+    line-height: 33px;
+    padding-left: 12%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    
+}
+.enterprise-bottom-slide-left>a{
+    padding-left: 12%;
+    
+    text-decoration: none;
+    color: #008bc7;
+    font-weight: 300;
+    padding-bottom: 12%;
+}
+.enterprise-bottom-slide-cont>p{
+    text-align: center;
+    color: #000000d8;
+    font-weight: 400;
+    font-size: 30px;
+    margin-bottom: 35px;
+}
