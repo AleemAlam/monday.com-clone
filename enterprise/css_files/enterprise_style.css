@@ -392,3 +392,23 @@ align-items: center;
 .enterprise-tailored-onboarding-left>img{
     width: 100%;
 }
+
+
+/* The economic impact of monday.com */
+
+
+.enterprise-economic-impact{
+    /* border: 1px solid red; */
+    background-color: rgb(44, 45, 95);
+    color: #ffffff;
+    text-align: center;
+    font-weight: 500;
+    font-size: 37px;
+    padding-top: 65px;
+    padding-bottom: 0px;
+    margin-bottom: 100px;
+}
+.enterprise-economic-impact>img{
+    width: 100%;
+    
+}
