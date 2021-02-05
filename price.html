@@ -462,6 +462,8 @@
       </div>
     </div>
     <script>
+        var showAns = true;
+        var que = document.querySelectorAll(".que-ans");
       var showMenu = true;
       function toggleMenu() {
         var menu = document.getElementById("small-menu");
@@ -473,6 +475,16 @@
           showMenu = true;
         }
       }
+      function toggleAns(e){
+        var ans = event.target.parentElement.querySelector(".ans");
+        if (showAns) {
+          ans.style.display = "block";
+          showAns = false;
+        } else {
+          ans.style.display = "none";
+          showAns = true;
+        }  
+      }
       function hideMenu() {
         var menu = document.getElementById("small-menu");
         menu.style.display = "none";
@@ -482,6 +494,9 @@
       var btn = document.getElementById("burgerbtn");
       btn.addEventListener("click", toggleMenu);
       window.onresize = hideMenu;
+      que.forEach(function(e){
+          e.addEventListener("click", toggleAns);
+      })
     </script>
   </body>
 </html>
