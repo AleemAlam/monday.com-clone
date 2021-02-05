@@ -6,6 +6,11 @@
       href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+    <link rel="shortcut icon" href="#" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>monday.com:Work the way that</title>
@@ -17,9 +22,15 @@
         ><img src="images/logo_monday.png" alt="monday.com"
       /></a>
       <ul>
-        <li><a href="">Product</a></li>
-        <li><a href="">Solutions</a></li>
-        <li><a href="enterprise/enterprise.html">Enterprise</a></li>
+        <li>
+          <a id="product" href=""
+            >Product <i class="fa fa-chevron-down"></i>
+          </a>
+        </li>
+        <li>
+          <a id="sol" href="">Solutions <i class="fa fa-chevron-down"></i></a>
+        </li>
+        <li><a id="ent" href="enterprise/enterprise.html">Enterprise</a></li>
         <li><a href="price.html">Price</a></li>
         <div class="space"></div>
         <li><a href="contact.html">Contact</a></li>
@@ -43,6 +54,101 @@
         <li><a href="contact.html">Contact</a></li>
         <li><a href="product.html">Login</a></li>
       </ul>
+      <div id="product-nav" class="extra-nav">
+        <div>
+          <i class="fa fa-list"></i>
+          <div>
+            <p>Project Overview</p>
+            <p>Learn more about the platform main feature, and benifits</p>
+          </div>
+        </div>
+        <div>
+          <i class="fa fa-luggage-cart"></i>
+          <div>
+            <p>Integration</p>
+            <p>Connect your team exisiting toots to get more work done</p>
+          </div>
+        </div>
+        <div>
+          <i class="fa fa-home"></i>
+          <div>
+            <p>Monday app Market place</p>
+            <p>Explore the ready-made apps to expand the monday.com Work OS</p>
+          </div>
+        </div>
+        <div>
+          <i class="fa fa-briefcase"></i>
+          <div>
+            <p>Coustomers</p>
+            <p>Check out the amazing teams that use monday.com</p>
+          </div>
+        </div>
+      </div>
+      <div id="sol-nav" class="extra-nav">
+        <div>
+          <i class="fa fa-tv"></i>
+          <div>
+            <p>Project Management</p>
+            <p>Learn more about the platform main feature, and benifits</p>
+          </div>
+        </div>
+        <div>
+          <i class="fas fa-hands-helping"></i>
+          <div>
+            <p>Marketing</p>
+            <p>Connect your team exisiting toots to get more work done</p>
+          </div>
+        </div>
+        <div>
+          <i class="fas fa-headset"></i>
+          <div>
+            <p>CRM & Sales</p>
+            <p>Explore the ready-made apps to expand the monday.com Work OS</p>
+          </div>
+        </div>
+        <div>
+          <i class="fas fa-laptop-house"></i>
+          <div>
+            <p>Remort Work</p>
+            <p>Check out the amazing teams that use monday.com</p>
+          </div>
+        </div>
+        <div>
+          <i class="fab fa-uncharted"></i>
+          <div>
+            <p>Software Development</p>
+            <p>Learn more about the platform main feature, and benifits</p>
+          </div>
+        </div>
+        <div>
+          <i class="far fa-play-circle"></i>
+          <div>
+            <p>Creative</p>
+            <p>Learn more about the platform main feature, and benifits</p>
+          </div>
+        </div>
+        <div>
+          <i class="fas fa-building"></i>
+          <div>
+            <p>Construction</p>
+            <p>Learn more about the platform main feature, and benifits</p>
+          </div>
+        </div>
+        <div>
+          <i class="fas fa-tools"></i>
+          <div>
+            <p>IT</p>
+            <p>Learn more about the platform main feature, and benifits</p>
+          </div>
+        </div>
+        <div>
+          <i class="far fa-user-circle"></i>
+          <div>
+            <p>HR</p>
+            <p>Learn more about the platform main feature, and benifits</p>
+          </div>
+        </div>
+      </div>
     </nav>
     <div class="contact">
       <h1>Contact Sales</h1>
@@ -67,7 +173,7 @@
           </div>
           <div id="workEmail" class="form-element">
             <label for="wEmail">Work Email</label>
-            <input type="text" id="wEmail" />
+            <input type="text" id="wEmail" placeholder="name@company.com" />
           </div>
           <div id="jobTitle" class="form-element">
             <label for="jTit">Job Title</label>
@@ -238,5 +344,6 @@
       btn.addEventListener("click", toggleMenu);
       window.onresize = hideMenu;
     </script>
+    <script src="all.js"></script>
   </body>
 </html>

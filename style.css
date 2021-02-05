@@ -29,7 +29,8 @@ nav {
 ul {
   display: flex;
   padding-left: 20px;
-  margin: 0;
+  margin: 0px;
+  height: 100%;
 }
 li {
   list-style: none;
@@ -103,6 +104,54 @@ li > button:hover {
   padding-top: 30px;
   border-bottom: 1px solid rgb(229, 236, 245);
 }
+.extra-nav {
+  width: 100%;
+  height: 200px;
+  margin: 0;
+  padding-left: 30px;
+  padding-bottom: 10px;
+  display: none;
+  text-align: left;
+  background-color: white;
+}
+.extra-nav > div {
+  flex-basis: 300px;
+  height: 90%;
+  display: flex;
+  margin: 10px;
+  justify-content: center;
+}
+#sol-nav {
+  flex-wrap: wrap;
+  background-color: white;
+  height: auto;
+}
+#sol-nav > div {
+  flex-basis: 280px;
+  height: auto;
+  padding: 0%;
+}
+#sol-nav > div > div {
+  margin-top: 10px;
+}
+#sol-nav > div > i {
+  margin-top: 28px;
+}
+.extra-nav > div > i,
+.extra-nav > div > div {
+  margin-top: 28px;
+}
+.extra-nav > div > i {
+  margin: 20px;
+  margin-top: 45px;
+}
+.extra-nav > div > i {
+  color: blue;
+}
+.extra-nav > div:hover {
+  background-color: rgb(241, 241, 247);
+}
+
 /* NAV END */
 
 /* GET STARTED */
@@ -333,7 +382,7 @@ h2 + p {
   margin-right: 20px;
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 1200px) {
   nav > ul > li {
     display: none;
   }
