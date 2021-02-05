@@ -467,8 +467,8 @@
         </div>
       </div>
       <div id="lower" class="free-trial">
-        <h1 class="no-margin-bottom">Start using monday.com today</h1>
-        <p class="no-margin-top">Try it now for free / No credit card needed</p>
+        <h1 id="lower-h2" class="no-margin-bottom">Start using monday.com today</h1>
+        <p id="lower-p" class="no-margin-top">Try it now for free / No credit card needed</p>
         <button >Get Started ></button>
       </div>
     <div id="footer" class="left-text-align">
@@ -598,6 +598,7 @@
       </div>
     </div>
     <script>
+
         var showAns = true;
         var que = document.querySelectorAll(".que-ans");
       var showMenu = true;
@@ -624,8 +625,6 @@
       function hideMenu() {
         var menu = document.getElementById("small-menu");
         menu.style.display = "none";
-        console.log(menu.style.display);
-        console.log(window.innerWidth);
       }
       var btn = document.getElementById("burgerbtn");
       btn.addEventListener("click", toggleMenu);
@@ -633,28 +632,6 @@
       que.forEach(function(e){
           e.addEventListener("click", toggleAns);
       })
-    </script>
-    <script>
-      var showMenu = true;
-      var getStarted = document.querySelector(".get-started");
-      getStarted.style.marginTop = "120px";
-      function toggleMenu() {
-        var menu = document.getElementById("small-menu");
-        if (showMenu) {
-          menu.style.display = "block";
-          showMenu = false;
-        } else {
-          menu.style.display = "none";
-          showMenu = true;
-        }
-      }
-      function hideMenu() {
-        var menu = document.getElementById("small-menu");
-        menu.style.display = "none";
-      }
-      var btn = document.getElementById("burgerbtn");
-      btn.addEventListener("click", toggleMenu);
-      window.onresize = hideMenu;
     </script>
     <script src="all.js"></script>
   </body>

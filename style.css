@@ -3,6 +3,7 @@ body {
   text-align: center;
   color: rgb(51, 51, 51);
   background-color: rgb(252, 252, 255);
+  margin: 0%;
 }
 /* NAV */
 .check-btn {
@@ -230,7 +231,7 @@ div > button:hover {
 
 /* VIDEO */
 #video-text-container {
-  width: 90%;
+  width: 80%;
   margin: auto;
   display: grid;
   gap: 5%;
@@ -245,6 +246,7 @@ div > button:hover {
 }
 video {
   width: 100%;
+  min-width: 430px;
 }
 #manage-video {
   grid-area: a;
@@ -429,36 +431,6 @@ h2 + p {
   color: blue;
 }
 
-@media only screen and (max-width: 1250px) {
-  nav > ul > li {
-    display: none;
-  }
-  .burger {
-    display: inline;
-    width: 100%;
-    text-align: right;
-    margin-left: 80%;
-  }
-  .burger-menu {
-    display: none;
-  }
-  .burger-menu > li {
-    display: block;
-    text-align: left;
-    padding-top: 30px;
-    padding-bottom: 0;
-  }
-  #footer {
-    display: none;
-  }
-  #footer-status {
-    display: none;
-  }
-  #small-footer {
-    display: block;
-  }
-}
-
 /* ------------------------------------------------------------------- */
 /* Contact-Page */
 .no-margin-bottom {
@@ -514,7 +486,7 @@ h2 + p {
     "cn cn cn cs"
     "tx tx tx tx"
     "btn btn btn btn";
-  gap: 20px;
+  gap: 30px;
   box-shadow: 0px 0px 10px 10px rgb(245, 245, 245);
   border-radius: 10px;
   padding: 50px;
@@ -532,10 +504,21 @@ h2 + p {
   height: 35px;
   border: 0.5px solid lightgray;
   border-radius: 3px;
+  font-size: 16px;
+  padding-left: 5px;
   margin-top: 5px;
 }
+.form-element > label > span {
+  color: red;
+}
 #txtF {
-  height: 70px;
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #8b8b8bbd;
+  font-size: 15px;
+  resize: none;
+  overflow: hidden;
 }
 #subBtn {
   width: 100%;
@@ -569,6 +552,16 @@ h2 + p {
 #cSize {
   grid-area: cs;
 }
+#d-down {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 15px;
+  border: 0.5px solid lightgray;
+  margin-left: 0;
+  margin-top: 4px;
+  color: gray;
+}
 #textFeild {
   grid-area: tx;
 }
@@ -597,7 +590,9 @@ h2 + p {
   font-size: 24px;
   line-height: 30px;
   letter-spacing: 1px;
+  margin: auto;
   margin-top: 50px;
+  width: 350px;
 }
 .card > a {
   margin-top: 10px;
@@ -673,6 +668,7 @@ h1 > span {
   display: flex;
   width: 81%;
   margin: auto;
+  justify-content: space-between;
 }
 .p-card {
   flex: 1;
@@ -682,6 +678,8 @@ h1 > span {
   border-radius: 10px;
   padding: 20px;
   margin: 10px;
+  min-width: 200px;
+  height: auto;
 }
 .p-card > h3 {
   font-weight: 500;
@@ -787,6 +785,7 @@ h1 > span {
 }
 .center-img {
   display: flex;
+  flex-wrap: wrap;
   width: 90%;
   margin: auto;
   margin-bottom: 50px;
@@ -794,12 +793,12 @@ h1 > span {
 }
 .center-img > img {
   width: 78px;
-  height: 70px;
+  height: 65px;
   margin: 30px;
 }
 .frequently-ask {
   width: 100%;
-  padding: 100px 10px;
+  padding: 80px 0px;
   padding-right: 0px;
   background-color: rgb(251, 251, 251);
 }
@@ -809,7 +808,7 @@ h1 > span {
   margin-bottom: 50px;
 }
 .que-ans {
-  width: 50%;
+  width: 60%;
   margin: auto;
   padding: 20px;
   text-align: left;
@@ -839,4 +838,188 @@ h1 > span {
   color: rgb(51, 51, 51);
   margin-top: 15px;
   margin-bottom: 15px;
+}
+@media only screen and (max-width: 1450px) {
+  .connect-cards {
+    grid-template:
+      "a b c"
+      "d d d";
+  }
+}
+@media only screen and (max-width: 1325px) {
+  #cSize > label {
+    font-size: 12px;
+    margin-bottom: 13px;
+  }
+}
+
+@media only screen and (max-width: 1250px) {
+  nav > ul > li {
+    display: none;
+  }
+  .burger {
+    display: inline;
+    width: 100%;
+    text-align: right;
+    margin-left: 80%;
+  }
+  .burger-menu {
+    display: none;
+  }
+  .burger-menu > li {
+    display: block;
+    text-align: left;
+    padding-top: 30px;
+    padding-bottom: 0;
+  }
+  #footer {
+    display: none;
+  }
+  #footer-status {
+    display: none;
+  }
+  #small-footer {
+    display: block;
+  }
+  #company-logo {
+    grid-template-rows: repeat(3, 100px);
+    grid-template-columns: repeat(4, 100px);
+    height: auto;
+  }
+  #company-logo > img:nth-child(9) {
+    grid-column-start: 2;
+    grid-column-end: 3;
+  }
+  .top-padding {
+    height: 480px;
+  }
+  .frequently-ask > .que-ans {
+    width: 80%;
+  }
+  .card-container {
+    flex-wrap: wrap;
+  }
+  .card-container > .p-card {
+    flex: 300px;
+  }
+  .cnt-text {
+    width: 100%;
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width: 1180px) {
+  .form > form {
+    display: grid;
+    grid-template:
+      "fname"
+      "lname"
+      "email"
+      "jtitle"
+      "phn"
+      "cn"
+      "cs"
+      "tx"
+      "btn";
+  }
+  .connect-cards {
+    grid-template:
+      "a b"
+      "c d";
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  #video-text-container {
+    grid-template:
+      "b"
+      "a"
+      "c"
+      "d"
+      "f"
+      "e"
+      "g"
+      "h";
+    gap: 10px;
+  }
+  .text-center-headding {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .left-text-align {
+    margin-left: 50px;
+  }
+  #company-logo {
+    grid-template-rows: repeat(4, 100px);
+    grid-template-columns: repeat(3, 100px);
+    height: auto;
+  }
+  #company-logo > img:nth-child(9) {
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 3;
+    grid-column-end: 4;
+  }
+  #company-logo > img:nth-child(9) {
+    grid-row-start: 4;
+    grid-column-start: 2;
+    grid-column-end: 3;
+  }
+  .top-padding {
+    height: 600px;
+  }
+  #support {
+    flex-wrap: wrap-reverse;
+  }
+  #support > div {
+    flex-basis: 100%;
+    margin-bottom: 20px;
+    margin-top: 80px;
+  }
+  #support-text > h2,
+  #support-text > p {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  .free-trial > button {
+    width: 50%;
+  }
+  .frequently-ask > .que-ans {
+    width: 90%;
+  }
+  .contact-form {
+    flex-wrap: wrap;
+  }
+  .contact-form > .form {
+    flex-basis: 100%;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .frequently-ask > .que-ans {
+    width: 100%;
+  }
+  .card-container {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .card-container > .p-card {
+    flex: 250px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .free-trial:nth-child(1) > button {
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .free-trial:nth-child(1) > button {
+    width: 100%;
+  }
+  #lower > #lower-h2 {
+    font-size: 30px;
+  }
+  #lower > #lower-p {
+    font-size: 20px;
+  }
 }

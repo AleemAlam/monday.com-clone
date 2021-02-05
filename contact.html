@@ -164,15 +164,15 @@
       <div class="form">
         <form>
           <div id="firstName" class="form-element">
-            <label for="fName">First Name</label>
+            <label for="fName">First Name <span>*</span></label>
             <input type="text" id="fName" />
           </div>
           <div id="lastName" class="form-element">
-            <label for="lName">Last Name</label>
+            <label for="lName">Last Name <span>*</span></label>
             <input type="text" id="lName" />
           </div>
           <div id="workEmail" class="form-element">
-            <label for="wEmail">Work Email</label>
+            <label for="wEmail">Work Email <span>*</span></label>
             <input type="text" id="wEmail" placeholder="name@company.com" />
           </div>
           <div id="jobTitle" class="form-element">
@@ -180,20 +180,33 @@
             <input type="text" id="jTit" />
           </div>
           <div id="phnNum" class="form-element">
-            <label for="phn">Phone Number</label>
+            <label for="phn">Phone Number <span>*</span></label>
             <input type="text" id="phn" />
           </div>
           <div id="comName" class="form-element">
-            <label for="cName">Company Name</label>
+            <label for="cName">Company Name <span>*</span></label>
             <input type="text" id="cName" />
           </div>
           <div id="cSize" class="form-element">
-            <label for="phn">Company Size</label>
-            <input type="text" id="phn" />
+            <label for="d-down">Company Size <span>*</span></label>
+            <select id="d-down" required>
+              <option>Please select</option>
+              <option value="1-19">1-19</option>
+              <option value="20-49">20-49</option>
+              <option value="50-99">50-99</option>
+              <option value="100-250">100-250</option>
+              <option value="251-1500">251-1500</option>
+              <option value="1500+">1500+</option>
+            </select>
           </div>
           <div id="textFeild" class="form-element">
             <label for="txtF">How can our team help you?</label>
-            <input type="text" id="txtF" />
+            <textarea
+              cols="10"
+              rows="5"
+              id="txtF"
+              placeholder="Tell us more about your team and what work you'd like to manage with monday.com"
+            ></textarea>
           </div>
           <div id="subBtn" class="form-element">
             <input type="submit" value="Contact Us" />
