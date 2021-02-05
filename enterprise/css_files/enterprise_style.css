@@ -1700,3 +1700,124 @@ li > button:hover {
     background-color: #3040f0;
   }
 }
+
+/* Footer */
+#footer {
+  display: flex;
+  font-size: 16px;
+  font-weight: 500;
+  justify-content: space-between;
+  width: 100%;
+  color: rgb(26, 26, 26);
+  background-color: rgb(244, 244, 247);
+}
+#footer > div > a {
+  display: block;
+  font-size: 15px;
+  color: rgb(26, 26, 26);
+}
+#footer > div > a:hover {
+  color: blue;
+}
+#footer > div {
+  flex-basis: 100px;
+  margin: 50px 70px;
+  line-height: 30px;
+}
+#footer > .footer-left {
+  flex-basis: 300px;
+  font-size: 13px;
+  font-weight: 400;
+}
+#footer > .footer-left > p:nth-child(2) {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+#footer > .footer-left > img {
+  width: 150px;
+  margin-top: 12px;
+}
+#footer-status {
+  display: flex;
+  background-color: rgb(244, 244, 247);
+  padding: 10px 0px;
+  width: 100%;
+}
+#footer-status > a {
+  font-size: 15px;
+  color: navy;
+  text-decoration: underline;
+  padding-top: 10px;
+  margin: 0px 25px;
+}
+#footer-status > a:nth-child(1) {
+  margin-left: 50px;
+}
+.fav-ico > a > img {
+  width: 30px;
+  margin-bottom: 30px;
+}
+#footer-status > div:nth-child(8) {
+  margin-left: auto;
+  margin-right: 20px;
+}
+
+/* Small Footer */
+
+#small-footer {
+  display: none;
+  width: 100%;
+  background-color: rgb(251, 251, 255);
+  padding: 0;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.s-f-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.s-f-flex > a {
+  flex-basis: auto;
+  margin: 20px;
+  color: rgb(26, 26, 26);
+  font-size: 15px;
+  font-weight: 400;
+  text-decoration: underline;
+}
+.s-f-flex > a:hover {
+  color: blue;
+}
+.s-f-copy {
+  text-align: center;
+}
+.s-f-copy > img {
+  width: 150px;
+  margin-bottom: 0px;
+  margin-top: 50px;
+}
+.s-f-copy > p {
+  margin-top: 10px;
+}
+.s-f-icon {
+  text-align: center;
+  margin: 10px;
+}
+.s-f-icon > a {
+  margin: 10px;
+}
+.s-f-icon > a:hover {
+  color: blue;
+}
+
+@media only screen and (max-width: 1250px) {
+  #footer {
+    display: none;
+  }
+  #footer-status {
+    display: none;
+  }
+  #small-footer {
+    display: block;
+  }
+}
+/* Footer End */

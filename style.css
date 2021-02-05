@@ -921,6 +921,7 @@ h1 > span {
       "cs"
       "tx"
       "btn";
+    margin: 100px;
   }
   .connect-cards {
     grid-template:
@@ -997,14 +998,26 @@ h1 > span {
 }
 @media only screen and (max-width: 800px) {
   .frequently-ask > .que-ans {
-    width: 100%;
+    width: 90%;
   }
   .card-container {
-    margin-left: 0px;
-    margin-right: 0px;
+    margin-left: 50px;
+    margin-right: 50px;
   }
   .card-container > .p-card {
     flex: 250px;
+  }
+  .form > form {
+    margin: 50px;
+  }
+}
+@media only screen and (max-width: 760px) {
+  .connect-cards {
+    grid-template:
+      "a"
+      "b"
+      "c"
+      "d";
   }
 }
 @media only screen and (max-width: 700px) {
