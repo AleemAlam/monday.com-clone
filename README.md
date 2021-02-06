@@ -2,6 +2,8 @@
 
 ## monday.com
 
+### Team Jhelum
+
 ### Team Members
 
 - Vivek Ranjan
@@ -25,7 +27,7 @@
 ### Libraries Used :
 
 <a href="https://fonts.google.com/">- Google Fonts</a>
-<a hred="https://fontawesome.com/">- Font Awesome</a>
+<a href="https://fontawesome.com/">- Font Awesome</a>
 
 ### Summary:
 
