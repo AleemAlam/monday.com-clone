@@ -22,7 +22,7 @@
 - HomePage
 - Enterprise
 - Pricing
-- Contect
+- Contact
 - Sign up
 - Login
 
