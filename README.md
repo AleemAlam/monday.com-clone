@@ -22,10 +22,11 @@
 - Pricing
 - Sign up & Login
 
-###Libraries Used :
+### Libraries Used :
 
 <a href="https://fonts.google.com/">- Google Fonts</a>
 <a hred="https://fontawesome.com/">- Font Awesome</a>
 
-###Summary:
+### Summary:
+
 Our project is to clone monday.com. We did 6 pages Home page, Enterprise Page, Pricing Page, Contact Page, Login Page, and Sign Up Page. We use the Font Awesome library for icons, Google Fonts library for fonts. To make it interactive with the user we use javascript language. We add some click, mouseenter, mouseleave, etc events.
