@@ -198,23 +198,26 @@ align-items: center;
     font-size: 15px;
 }
 #company-nam{
-    width: 120%;
+    width: 100%;
     padding: 8px;
     border-radius: 5px;
     border: 1px solid #8b8b8bbd;
     font-size: 15px;
 }
 #company-size{
-    width: 60%;
+    width: 74%;
     padding: 8px;
     border-radius: 5px;
     border: 1px solid #8b8b8bbd;
     font-size: 15px;
-    margin-left: 33%;
+    margin-left: 15%;
 }
-.company-size-label{
-    margin-left: 32%;
-}
+/* .company-size-label{
+    
+} */
+/* .select-company-size{
+    margin-left: 22%;
+} */
 #feedback{
     width: 195%;
     padding: 8px;
@@ -257,6 +260,10 @@ align-items: center;
     margin-right: 5%;
 }
 
+.required-star::after{
+    content: " *";
+    color: red;
+}
 
 /* //// enterprise-security-part(some text with ,one image on the left side) \\\\*/
 
