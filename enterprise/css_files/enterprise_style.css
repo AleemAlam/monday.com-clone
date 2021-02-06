@@ -955,20 +955,33 @@ li > button:hover {
     border-radius: 5px;
     border: 1px solid #8b8b8bbd;
     font-size: 15px;
+<<<<<<< HEAD
   }
   #company-nam {
     width: 85%;
+=======
+}
+#company-nam{
+    width: 100%;
+>>>>>>> enterprise
     padding: 8px;
     border-radius: 5px;
     border: 1px solid #8b8b8bbd;
     font-size: 15px;
+<<<<<<< HEAD
   }
   #company-size {
     width: 90%;
+=======
+}
+#company-size{
+    width: 74%;
+>>>>>>> enterprise
     padding: 8px;
     border-radius: 5px;
     border: 1px solid #8b8b8bbd;
     font-size: 15px;
+<<<<<<< HEAD
     margin-left: 0;
   }
   .company-size-label {
@@ -976,6 +989,18 @@ li > button:hover {
   }
   #feedback {
     width: 86%;
+=======
+    margin-left: 15%;
+}
+/* .company-size-label{
+    
+} */
+/* .select-company-size{
+    margin-left: 22%;
+} */
+#feedback{
+    width: 195%;
+>>>>>>> enterprise
     padding: 8px;
     border-radius: 5px;
     border: 1px solid #8b8b8bbd;
@@ -1014,8 +1039,19 @@ li > button:hover {
   .request-demo-form-img > img {
     width: 100%;
     margin-right: 5%;
+<<<<<<< HEAD
     margin-top: 15%;
   }
+=======
+}
+
+.required-star::after{
+    content: " *";
+    color: red;
+}
+
+/* //// enterprise-security-part(some text with ,one image on the left side) \\\\*/
+>>>>>>> enterprise
 
   /* //// enterprise-security-part(some text with ,one image on the left side) \\\\*/
 

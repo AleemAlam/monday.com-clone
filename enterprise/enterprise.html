@@ -31,7 +31,7 @@
         <li>
           <a id="sol" href="">Solutions <i class="fa fa-chevron-down"></i></a>
         </li>
-        <li><a id="ent" href="enterprise/enterprise.html">Enterprise</a></li>
+        <li><a id="ent" href="">Enterprise</a></li>
         <li><a href="../price.html">Price</a></li>
         <div class="space"></div>
         <li><a href="../contact.html">Contact</a></li>
@@ -235,7 +235,7 @@
         </div>
 
         <div class="enterprice-first-video">
-          <video controls autoplay>
+          <video controls autoplay muted>
             <source
               src="https://dapulse-res.cloudinary.com/video/upload/q_auto,f_auto,cs_copy/remote_mondaycom_static/video/video-library/monday2.0-tests%20dont%20use/Gray_Marketing_plan.mp4"
               type="video/mp4"
@@ -285,17 +285,17 @@
             <div></div>
             <div></div>
             <div>
-              <label for="first-nam">First name*</label>
+              <label class="required-star" for="first-nam">First name</label>
               <input type="text" id="first-nam" required />
             </div>
 
             <div>
-              <label for="last-nam">Last name*</label>
+              <label class="required-star" for="last-nam">Last name</label>
               <input type="text" id="last-nam" required />
             </div>
 
             <div>
-              <label for="request-mail">Work email*</label>
+              <label class="required-star" for="request-mail">Work email</label>
               <input
                 type="email"
                 id="request-mail"
@@ -310,18 +310,23 @@
             </div>
 
             <div>
-              <label for="mob-no">Phone number*</label>
+              <label class="required-star" for="mob-no">Phone number</label>
               <input type="text" id="mob-no" placeholder="+91" required />
             </div>
             <br />
             <div>
-              <label for="company-nam">Company name*</label>
+              <label class="required-star" for="company-nam"
+                >Company name</label
+              >
               <input type="text" id="company-nam" required />
             </div>
 
-            <div>
-              <label class="company-size-label" for="company-size"
-                >Company size*</label
+            <div class="select-company-size">
+              <label
+                class="required-star"
+                class="company-size-label"
+                for="company-size"
+                >Company size</label
               >
               <select id="company-size" required>
                 <option>Please select</option>
