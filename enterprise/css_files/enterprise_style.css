@@ -1,214 +1,3 @@
-/* NAV BAR STYLE */
-.check-btn {
-  font-size: 50px;
-  margin-right: 20px;
-  color: black;
-  line-height: 80px;
-  margin-right: 30px;
-}
-#check {
-  display: none;
-}
-nav > a {
-  display: inline;
-}
-nav {
-  background-color: white;
-  height: 80px;
-  vertical-align: middle;
-  width: 100%;
-  position: fixed;
-  top: 0;
-}
-ul {
-  display: flex;
-  padding-left: 20px;
-  margin: 0px;
-  height: 100%;
-}
-li {
-  list-style: none;
-  margin: 30px 10px;
-}
-.space {
-  width: 47%;
-}
-nav img {
-  display: inline;
-  width: 190px;
-  align-self: baseline;
-  margin: 14px 0px 0 30px;
-  float: left;
-}
-li > a {
-  display: inline-block;
-  font-size: 16px;
-  text-decoration: none;
-  color: rgb(65, 64, 64);
-  font-weight: 300;
-}
-li > a:hover {
-  color: blue;
-}
-nav li:nth-child(8) {
-  margin-top: 20px;
-}
-button,
-input[type="submit"] {
-  width: 130px;
-  height: 40px;
-  font-size: 15px;
-  border-radius: 75px;
-  background-color: rgb(80, 80, 248);
-  color: white;
-  border: none;
-}
-li > button:hover {
-  background-color: blue;
-}
-
-.burger {
-  margin-top: 20px;
-  margin-right: 10px;
-  display: none;
-}
-.line {
-  width: 30px;
-  height: 2px;
-  background-color: black;
-  margin: 1px;
-  margin: 5px;
-}
-.line:nth-child(2) {
-  height: 2px;
-}
-.line:nth-child(3) {
-  height: 4px;
-}
-.burger-menu {
-  display: none;
-  margin-top: 0;
-  padding: 0;
-}
-.burger-menu li {
-  background-color: rgb(253, 253, 253);
-  height: 50px;
-  margin: 0px 10px 0 0;
-  padding: 30px 0 10px 30px;
-  padding-top: 30px;
-  border-bottom: 1px solid rgb(229, 236, 245);
-}
-.extra-nav {
-  width: 100%;
-  height: 200px;
-  margin: 0;
-  padding-left: 30px;
-  padding-bottom: 10px;
-  display: none;
-  text-align: left;
-  background-color: white;
-}
-.extra-nav > div {
-  flex-basis: 300px;
-  height: 90%;
-  display: flex;
-  margin: 10px;
-  justify-content: center;
-}
-#sol-nav {
-  flex-wrap: wrap;
-  background-color: white;
-  height: auto;
-}
-#sol-nav > div {
-  flex-basis: 280px;
-  height: auto;
-  padding: 0%;
-}
-#sol-nav > div > div {
-  margin-top: 10px;
-}
-#sol-nav > div > i {
-  margin-top: 28px;
-}
-.extra-nav > div > i,
-.extra-nav > div > div {
-  margin-top: 28px;
-}
-.extra-nav > div > i {
-  margin: 20px;
-  margin-top: 45px;
-}
-.extra-nav > div > i {
-  color: blue;
-}
-.extra-nav > div:hover {
-  background-color: rgb(241, 241, 247);
-}
-/* NAV BAR STYLE END   */
-
-/* Footer Style */
-#footer {
-  display: flex;
-  font-size: 16px;
-  font-weight: 500;
-  justify-content: space-between;
-  width: 100%;
-  color: rgb(26, 26, 26);
-  background-color: rgb(244, 244, 247);
-}
-#footer > div > a {
-  display: block;
-  font-size: 15px;
-  color: rgb(26, 26, 26);
-}
-#footer > div > a:hover {
-  color: blue;
-}
-#footer > div {
-  flex-basis: 100px;
-  margin: 50px 70px;
-  line-height: 30px;
-}
-#footer > .footer-left {
-  flex-basis: 300px;
-  font-size: 13px;
-  font-weight: 400;
-}
-#footer > .footer-left > p:nth-child(2) {
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
-#footer > .footer-left > img {
-  width: 150px;
-  margin-top: 12px;
-}
-#footer-status {
-  display: flex;
-  background-color: rgb(244, 244, 247);
-  padding: 10px 0px;
-  width: 100%;
-}
-#footer-status > a {
-  font-size: 15px;
-  color: navy;
-  text-decoration: underline;
-  padding-top: 10px;
-  margin: 0px 25px;
-}
-#footer-status > a:nth-child(1) {
-  margin-left: 50px;
-}
-.fav-ico > a > img {
-  width: 30px;
-  margin-bottom: 30px;
-}
-#footer-status > div:nth-child(8) {
-  margin-left: auto;
-  margin-right: 20px;
-}
-/* Footer Style End */
-
 * {
   margin: 0;
   padding: 0;
@@ -242,8 +31,6 @@ li > button:hover {
   margin-top: 16px;
 }
 .enterprise-header-text > button {
-  width: auto;
-  height: auto;
   font-size: 16px;
   padding: 15px 35px;
   background-color: white;
@@ -408,23 +195,26 @@ li > button:hover {
   font-size: 15px;
 }
 #company-nam {
-  width: 120%;
+  width: 100%;
   padding: 8px;
   border-radius: 5px;
   border: 1px solid #8b8b8bbd;
   font-size: 15px;
 }
 #company-size {
-  width: 60%;
+  width: 74%;
   padding: 8px;
   border-radius: 5px;
   border: 1px solid #8b8b8bbd;
   font-size: 15px;
-  margin-left: 33%;
+  margin-left: 15%;
 }
-.company-size-label {
-  margin-left: 32%;
-}
+/* .company-size-label{
+  
+} */
+/* .select-company-size{
+  margin-left: 22%;
+} */
 #feedback {
   width: 195%;
   padding: 8px;
@@ -464,6 +254,11 @@ li > button:hover {
 .request-demo-form-img > img {
   width: 100%;
   margin-right: 5%;
+}
+
+.required-star::after {
+  content: " *";
+  color: red;
 }
 
 /* //// enterprise-security-part(some text with ,one image on the left side) \\\\*/
@@ -737,26 +532,6 @@ li > button:hover {
 
 /*/ Media Query */
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (max-width: 1250px) {
-  nav > ul > li {
-    display: none;
-  }
-  .burger {
-    display: inline;
-    width: 100%;
-    text-align: right;
-    margin-left: 80%;
-  }
-  .burger-menu {
-    display: none;
-  }
-  .burger-menu > li {
-    display: block;
-    text-align: left;
-    padding-top: 30px;
-    padding-bottom: 0;
-  }
-}
 @media only screen and (max-width: 768px) {
   /* //// enterprise-header-starting-page \\\\ */
 
@@ -955,33 +730,20 @@ li > button:hover {
     border-radius: 5px;
     border: 1px solid #8b8b8bbd;
     font-size: 15px;
-<<<<<<< HEAD
   }
   #company-nam {
     width: 85%;
-=======
-}
-#company-nam{
-    width: 100%;
->>>>>>> enterprise
     padding: 8px;
     border-radius: 5px;
     border: 1px solid #8b8b8bbd;
     font-size: 15px;
-<<<<<<< HEAD
   }
   #company-size {
     width: 90%;
-=======
-}
-#company-size{
-    width: 74%;
->>>>>>> enterprise
     padding: 8px;
     border-radius: 5px;
     border: 1px solid #8b8b8bbd;
     font-size: 15px;
-<<<<<<< HEAD
     margin-left: 0;
   }
   .company-size-label {
@@ -989,18 +751,6 @@ li > button:hover {
   }
   #feedback {
     width: 86%;
-=======
-    margin-left: 15%;
-}
-/* .company-size-label{
-    
-} */
-/* .select-company-size{
-    margin-left: 22%;
-} */
-#feedback{
-    width: 195%;
->>>>>>> enterprise
     padding: 8px;
     border-radius: 5px;
     border: 1px solid #8b8b8bbd;
@@ -1039,19 +789,8 @@ li > button:hover {
   .request-demo-form-img > img {
     width: 100%;
     margin-right: 5%;
-<<<<<<< HEAD
     margin-top: 15%;
   }
-=======
-}
-
-.required-star::after{
-    content: " *";
-    color: red;
-}
-
-/* //// enterprise-security-part(some text with ,one image on the left side) \\\\*/
->>>>>>> enterprise
 
   /* //// enterprise-security-part(some text with ,one image on the left side) \\\\*/
 
@@ -1736,8 +1475,156 @@ li > button:hover {
     background-color: #3040f0;
   }
 }
+/* NAV */
+.check-btn {
+  font-size: 50px;
+  margin-right: 20px;
+  color: black;
+  line-height: 80px;
+  margin-right: 30px;
+}
+#check {
+  display: none;
+}
+nav > a {
+  display: inline;
+}
+nav {
+  background-color: white;
+  height: 80px;
+  vertical-align: middle;
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
+ul {
+  display: flex;
+  padding-left: 20px;
+  margin: 0px;
+  height: 100%;
+}
+li {
+  list-style: none;
+  margin: 30px 10px;
+}
+.space {
+  width: 47%;
+}
+nav img {
+  display: inline;
+  width: 190px;
+  align-self: baseline;
+  margin: 14px 0px 0 30px;
+  float: left;
+}
+a {
+  display: inline-block;
+  font-size: 15px;
+  text-decoration: none;
+  color: rgb(65, 64, 64);
+  font-weight: 300;
+}
+li > a:hover {
+  color: blue;
+}
+nav li:nth-child(8) {
+  margin-top: 20px;
+}
+li > button,
+input[type="submit"] {
+  width: 130px;
+  height: 40px;
+  font-size: 15px;
+  border-radius: 75px;
+  background-color: rgb(80, 80, 248);
+  color: white;
+  border: none;
+}
+li > button:hover {
+  background-color: blue;
+}
 
-/* Footer */
+.burger {
+  margin-top: 20px;
+  margin-right: 10px;
+  display: none;
+}
+.line {
+  width: 30px;
+  height: 2px;
+  background-color: black;
+  margin: 1px;
+  margin: 5px;
+}
+.line:nth-child(2) {
+  height: 2px;
+}
+.line:nth-child(3) {
+  height: 4px;
+}
+.burger-menu {
+  display: none;
+  margin-top: 0;
+  padding: 0;
+}
+.burger-menu li {
+  background-color: rgb(253, 253, 253);
+  height: 50px;
+  margin: 0px 10px 0 0;
+  padding: 30px 0 10px 30px;
+  padding-top: 30px;
+  border-bottom: 1px solid rgb(229, 236, 245);
+}
+.extra-nav {
+  width: 100%;
+  height: 200px;
+  margin: 0;
+  padding-left: 30px;
+  padding-bottom: 10px;
+  display: none;
+  text-align: left;
+  background-color: white;
+}
+.extra-nav > div {
+  flex-basis: 300px;
+  height: 90%;
+  display: flex;
+  margin: 10px;
+  justify-content: center;
+}
+#sol-nav {
+  flex-wrap: wrap;
+  background-color: white;
+  height: auto;
+}
+#sol-nav > div {
+  flex-basis: 280px;
+  height: auto;
+  padding: 0%;
+}
+#sol-nav > div > div {
+  margin-top: 10px;
+}
+#sol-nav > div > i {
+  margin-top: 28px;
+}
+.extra-nav > div > i,
+.extra-nav > div > div {
+  margin-top: 28px;
+}
+.extra-nav > div > i {
+  margin: 20px;
+  margin-top: 45px;
+}
+.extra-nav > div > i {
+  color: blue;
+}
+.extra-nav > div:hover {
+  background-color: rgb(241, 241, 247);
+}
+/* NAV END */
+
+/* FOOTER */
 #footer {
   display: flex;
   font-size: 16px;
@@ -1844,8 +1731,26 @@ li > button:hover {
 .s-f-icon > a:hover {
   color: blue;
 }
-
+/* FOOTER END */
 @media only screen and (max-width: 1250px) {
+  nav > ul > li {
+    display: none;
+  }
+  .burger {
+    display: inline;
+    width: 100%;
+    text-align: right;
+    margin-left: 80%;
+  }
+  .burger-menu {
+    display: none;
+  }
+  .burger-menu > li {
+    display: block;
+    text-align: left;
+    padding-top: 30px;
+    padding-bottom: 0;
+  }
   #footer {
     display: none;
   }
@@ -1856,4 +1761,3 @@ li > button:hover {
     display: block;
   }
 }
-/* Footer End */

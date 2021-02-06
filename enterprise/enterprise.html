@@ -37,9 +37,7 @@
         <li><a href="../contact.html">Contact</a></li>
         <li><a href="../Project_masai/project/login_monday.html">Login</a></li>
         <li>
-          <button href="Project_masai/project/signup_monday.html">
-            Get Started >
-          </button>
+          <input type="submit" value="Get Started" />
         </li>
         <div id="burgerbtn" class="burger">
           <div class="line"></div>
@@ -650,7 +648,7 @@
         >
       </div>
       <div class="s-f-copy">
-        <img src="images/logo_monday.png" alt="monday" />
+        <img src="../images/logo_monday.png" alt="monday" />
         <p>All Rights Reserved © monday.com</p>
         <p>34 W 14th St. New York, NY 10011, USA</p>
       </div>
@@ -664,6 +662,7 @@
       </div>
     </div>
     <script>
+      var signUpInput = document.querySelector("nav>ul>li>input");
       var showMenu = true;
       function toggleMenu() {
         var menu = document.getElementById("small-menu");
@@ -682,6 +681,9 @@
       var btn = document.getElementById("burgerbtn");
       btn.addEventListener("click", toggleMenu);
       window.onresize = hideMenu;
+      signUpInput.addEventListener("click", function () {
+        window.location.href = "../Project_masai/project/signup_monday.html";
+      });
     </script>
     <script src="../all.js"></script>
   </body>
