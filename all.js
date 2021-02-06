@@ -4,6 +4,7 @@ var proMenuShow = true;
 var pro = document.getElementById("product");
 var sol = document.getElementById("sol");
 var ent = document.getElementById("ent");
+var signUpBtn = document.querySelector("nav > ul > li > button");
 function showMenu(event) {
   solMenu.style.display = "none";
   sol.style.color = "rgb(65, 64, 64)";
@@ -49,8 +50,12 @@ function hideAllMenu() {
   oldI.style.transform = "";
   oldI.style.transition = ".2s";
 }
+function goToSignUp() {
+  window.location.href = "Project_masai/project/signup_monday.html";
+}
 pro.addEventListener("mouseenter", showMenu);
 proMenu.addEventListener("mouseleave", hideMenu);
 sol.addEventListener("mouseenter", showSolMenu);
 solMenu.addEventListener("mouseleave", hideSolMenu);
 ent.addEventListener("mouseenter", hideAllMenu);
+signUpBtn.addEventListener("click", goToSignUp);
