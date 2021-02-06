@@ -2,7 +2,7 @@
 
 ## monday.com
 
-### Team Jhelum
+## Team Jhelum
 
 ### Team Members
 
@@ -22,7 +22,9 @@
 - HomePage
 - Enterprise
 - Pricing
-- Sign up & Login
+- Contect
+- Sign up
+- Login
 
 ### Libraries Used :
 
